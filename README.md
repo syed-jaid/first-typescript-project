@@ -1,5 +1,5 @@
-# Getting Started with Create React App
+# Yamak Web Development internship Task.
 
-This project was bootstrapped with [Create React App]().
+Live site link [Create React App]().
 
 # My very frist typescript project
