@@ -1,0 +1,45 @@
+.all-body {
+    background-color: #F6FAFD;
+}
+
+/* navbar  part  */
+
+.navbar-main-div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* navbar logo  */
+.logo {
+    width: 211px;
+    height: 35px;
+}
+
+.round-img {
+    width: 26px;
+    height: 26px;
+    margin-top: 9px;
+    margin-left: 68px;
+    margin-right: 20px;
+}
+
+.person-img {
+    width: 46px;
+    margin-right: 10px;
+}
+
+/* navbar link  */
+.nav-link {
+    color: #707070;
+}
+
+.nav-link:hover {
+    color: #0188F3;
+}
+
+.btn {
+    color: white;
+    background-color: #0188F3;
+    border-radius: 0%;
+}
