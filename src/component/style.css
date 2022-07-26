@@ -43,3 +43,47 @@
     background-color: #0188F3;
     border-radius: 0%;
 }
+
+/* INput filds  */
+
+.small-input-1 {
+    width: 60px;
+    height: 44px;
+    margin-left: 15px;
+    padding: 10px;
+    border: 1px solid #7FC3F9;
+}
+
+.small-input-2 {
+    width: 90px;
+    background-color: white;
+    height: 44px;
+    margin-left: 15px;
+    padding: 10px;
+    border: 1px solid #7FC3F9;
+}
+
+/* input fild text color  */
+.text-color {
+    color: #707070;
+}
+
+/* big-input-file */
+.big-input-file {
+    background-color: #7FC3F9;
+    width: 100%;
+    height: 588px;
+    border: 0;
+
+}
+
+/* Write for me */
+.wfm-button {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #0073CF;
+    border: 0;
+}
