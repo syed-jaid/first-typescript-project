@@ -44,6 +44,18 @@
     border-radius: 0%;
 }
 
+
+/* maid div for all */
+.the-main-div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.left-site {
+    width: 100%;
+}
+
 /* INput filds  */
 
 .small-input-1 {
@@ -68,9 +80,12 @@
     color: #707070;
 }
 
+.text-color-2 {
+    color: #FF8D8D;
+}
+
 /* big-input-file */
 .big-input-file {
-    background-color: #7FC3F9;
     width: 100%;
     height: 588px;
     border: 0;
@@ -86,4 +101,37 @@
     color: white;
     background-color: #0073CF;
     border: 0;
+}
+
+.copy-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 12px;
+    margin: 25px;
+    width: 500px;
+}
+
+.copy {
+    color: #7FC3F9;
+    font-size: 13px;
+}
+
+.copy-text {
+    font-size: 14px;
+}
+
+.hr-div {
+    height: 57px;
+    border: 1px solid #707070;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.hr-big {
+    border: 1px solid #707070;
+    margin-left: 25px;
+    margin-top: -40px;
+    margin-bottom: -50px;
 }
