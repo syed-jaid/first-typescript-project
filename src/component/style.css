@@ -49,7 +49,7 @@
 .the-main-div {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .left-site {
@@ -80,6 +80,13 @@
     color: #707070;
 }
 
+.nav-hight {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 10px;
+    color: #414756;
+}
+
 .text-color-2 {
     color: #FF8D8D;
 }
@@ -87,7 +94,7 @@
 /* big-input-file */
 .big-input-file {
     width: 100%;
-    height: 588px;
+    height: 470px;
     border: 0;
 
 }
@@ -98,6 +105,7 @@
     padding-right: 140px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 30px;
     color: white;
     background-color: #0073CF;
     border: 0;
@@ -132,6 +140,56 @@
 .hr-big {
     border: 1px solid #707070;
     margin-left: 25px;
+    padding: 0;
     margin-top: -40px;
     margin-bottom: -50px;
+}
+
+.buttom-links {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .copy-main-div {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1180px) {
+
+    .copy-main-div {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .the-main-div {
+        display: block;
+    }
+
+    .hr-big {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+    .the-main-div {
+        padding-bottom: 50px;
+    }
+
+    .nav-links1 {
+        display: none;
+    }
+
+    .buttom-links {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .filter-button {
+        display: none;
+    }
 }

@@ -12,14 +12,20 @@ const Navbar = () => {
                     <div>
                         <a className="navbar-brand" href="#"> <img className='logo' src={logo} alt="" /> </a>
                     </div>
-                    <div>
+                    <div >
                         <ul className=" d-flex ">
-                            <a className="nav-link " aria-current="page" href="#">Home</a>
-                            <a className="nav-link " aria-current="page" href="#">Marketing</a>
-                            <a className="nav-link " aria-current="page" href="#">Social Media</a>
-                            <a className="nav-link " aria-current="page" href="#">Sales Copy</a>
-                            <a className="nav-link " aria-current="page" href="#">Blogs</a>
-                            <a className="nav-link " aria-current="page" href="#">Others</a>
+                            <div className='nav-links1 '>
+                                <div className='d-flex'>
+                                    <a className="nav-link " aria-current="page" href="#">Home</a>
+                                    <a className="nav-link " aria-current="page" href="#">Marketing</a>
+                                    <a className="nav-link " aria-current="page" href="#">Social Media</a>
+                                    <a className="nav-link " aria-current="page" href="#">Sales Copy</a>
+                                    <a className="nav-link " aria-current="page" href="#">Blogs</a>
+                                    <a className="nav-link " aria-current="page" href="#">Others</a>
+                                </div>
+
+                            </div>
+
                             <img className='round-img' src={round} alt="" />
                             <img className='person-img' src={person} alt="" />
                         </ul>
@@ -30,7 +36,7 @@ const Navbar = () => {
                 <h3>Home/Writing Assistant</h3>
                 <div>
                     <button className="btn px-5 py-2" type="button">Save</button>
-                    <button className="btn px-5 py-2 ms-2" type="button">Filter</button>
+                    <button className="btn px-5 py-2 ms-2 filter-button" type="button">Filter</button>
                 </div>
             </div>
         </div>
